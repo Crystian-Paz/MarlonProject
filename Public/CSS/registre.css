@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: blue;
+    height: 10vh;
+}
+
+.nav-list a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.nav-list a:hover{ /* Hover do botão de cima */
+    transform: scale(1.2);
+    opacity: 0.95;
+    color: red;
+    font-weight: 700;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list li{
+    letter-spacing: 2px;
+    margin-left: 40px;
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px; 
+    background: #fff;
+    margin: 6px; 
+    transition: 0.4s;
+}
+
+.registre {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.forms-organization {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+    
+}
+
+main{
+    background: url(/img/Membros/BG.jpg) no-repeat center center; /* tenho que achar uma foto melhor pra isso daqui */
+    background-size: cover;
+    object-fit: fill;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    color: #fff;
+    
+}
+
+input{
+    display: flex;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    width: 10.5rem;
+}
+
+input[type="date"]{
+    display: flex;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    width: 10.5rem;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+
+input[type="submit"]{
+    display: flex;
+    border-radius: 0.5rem;
+    width: 12.2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+
+
+.formscard {
+    background-color: blue;
+    height: 30rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.comment textarea{
+    display: flex;
+    width: 20rem;
+    height: 16rem;
+    margin-left: 2rem;
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+}
+
+.formscard h1{
+    display: flex;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 10rem;
+    width: 20rem;
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.card button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #e60000;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.feedback h2{
+    margin: 2rem;
+    color: white;
+}
+
+#userList{
+    display: grid;
+    grid-template-rows: 20rem 20rem 20rem;
+    grid-template-columns: 22rem 22rem 22rem;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../Public/CSS/registre.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <nav> 
+            <a class="logo" href="index.html">
+                Cadastro
+            </a>
+            <div class="mobile-menu"> 
+                <div class="brg1"></div>
+                <div class="brg2"></div>
+                <div class="brg3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Membros</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </label>
+        </nav>
+    </header>
+    <main>
+        <section id="registre">
+            <div class="registre">
+                <div class="formscard">
+                    <h1>Cadastro</h1>
+                    <div class="forms-organization">
+                        <form id="registerForm">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        
+                            <label for="date">Data</label>
+                            <input type="date" id="date" name="date" required>
+                        
+                            <input type="submit" id="submit" value="Enviar">
+                        </form>
+                        <div class="comment">
+                            <label for="comment">Comentário</label>
+                            <textarea id="comment" rows="5" cols="30" placeholder="Digite seu Comentário aqui..." required></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <h2>Informações Registradas:</h2>
+            <div id="output">
+                <ul id="userList"></ul>
+            </div>
+        </section>
+    </main>
+    <script src="../Controller/NavBarController.js"></script>
+    <script src="../Controller/registrecontroller.js"></script>
+</body>
+</html>
