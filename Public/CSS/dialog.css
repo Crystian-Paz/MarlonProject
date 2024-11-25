@@ -31,6 +31,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
+    font-family: Poppins;
 }
 .organization-modal {
     display: flex;
@@ -40,7 +41,7 @@
 }
 
 .modal-content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .modal-content img{
@@ -60,4 +61,9 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+p{
+    font-family: Poppins;
+    font-size: 1rem;
 }

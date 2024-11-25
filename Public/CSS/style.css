@@ -114,7 +114,7 @@ main{
     margin: 6px; /* Se voces acharem que ficou muito grosso, só mudar o valor aqui para mais */
     transition: 0.4s;
 }
-/* Responsividade Mobile, não é necessário mas tá funcionando, recomendo não mexerem se não se garantir */
+/* Responsividade Mobile
 
 /* Buscar qual o resolução devemos colocar para ativar o modo mobile, 999px é só uma solução temporária */
 @media (max-width: 999px) {
@@ -587,4 +587,5 @@ body{
   font-size: 18px;
   font-family: Poppins;
   color: white;
+  margin-left: 5%;
 }

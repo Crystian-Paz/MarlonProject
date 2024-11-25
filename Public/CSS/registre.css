@@ -78,9 +78,9 @@ nav {
 }
 
 main{
-    background: url(/img/Membros/BG.jpg) no-repeat center center; /* tenho que achar uma foto melhor pra isso daqui */
+    background: url(/img/Galeria/BG5.png) no-repeat center center;
     background-size: cover;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 label {
@@ -142,6 +142,7 @@ input[type="submit"]{
     display: flex;
     margin: 1rem;
     font-size: 2rem;
+    font-family: Poppins;
 }
 
 
@@ -159,11 +160,13 @@ input[type="submit"]{
 .card h3 {
     margin: 0 0 10px;
     color: #333;
+    font-family: Poppins;
 }
 
 .card p {
     margin: 5px 0;
     color: #555;
+    font-family: Poppins;
 }
 
 .card button {
@@ -191,6 +194,7 @@ input[type="submit"]{
 .feedback h2{
     margin: 2rem;
     color: white;
+    font-family: Poppins;
 }
 
 #userList{
@@ -199,4 +203,8 @@ input[type="submit"]{
     grid-template-columns: 22rem 22rem 22rem;
     gap: 2rem;
     margin-bottom: 5rem;
+}
+
+.forms-organization label {
+    font-family: Poppins;
 }
