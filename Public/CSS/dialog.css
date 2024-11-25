@@ -14,16 +14,16 @@
 .modal-content {
     display: flex;
     flex-direction: column;
-
     gap: 1rem;
     border-radius: 1rem;
     background-color: #fefefe;
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 25rem;
-    height: 30rem;
+    width: 22rem;
+    height: 27rem;
     max-width: 500px;
+    color: black;
 }
 
 .modal-content h2{
@@ -38,6 +38,15 @@
     flex-direction: row;
     gap: 0.5rem;
     align-items: center;
+    color: black;
+}
+
+.organization-modal a {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+    font-size: 0.8rem;
 }
 
 .modal-content p {

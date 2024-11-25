@@ -1,0 +1,49 @@
+#liked-carousel {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.carousel-organization{
+    padding: 1rem;
+}
+
+.carousel-organization h2 {
+    color: white;
+    margin: 2rem;
+}
+
+.carousel-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    width: 20rem; 
+    height: 20rem;
+    position: relative;
+}
+
+.carousel-item {
+    min-width: 10rem; 
+    margin: 0 0.5rem; 
+    display: block;
+    transition: transform 0.5s ease-in-out; 
+}
+
+
+#prev-btn, #next-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 18px;
+}

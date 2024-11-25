@@ -15,7 +15,7 @@ user2.set("curso", "Engenharia da computação");
 const user3 = new Map();
 user3.set("nome", "Crystian Silva");
 user3.set("github", "Crystian-Paz");
-user3.set("linkedin", "Crystian da Paz");
+user3.set("linkedin", "https://www.linkedin.com/in/crystian-silva/");
 user3.set("curso", "Ciência da computação");
 
 const user4 = new Map();
@@ -74,8 +74,13 @@ function showInfo(person) {
     const userinfo = info(person);
     if (userinfo) {
         document.getElementById("nome").innerText = userinfo.nome;
-        document.getElementById("github").innerText = `GitHub: ${userinfo.github}`;
-        document.getElementById("linkedin").innerText = `LinkedIn: ${userinfo.linkedin}`;
+
+        const githubElement = document.getElementById("github");
+        githubElement.innerHTML = `GitHub: <a href="https://github.com/${userinfo.github}" target="_blank">${userinfo.github}</a>`;
+
+        const linkedinElement = document.getElementById("linkedin");
+        linkedinElement.innerHTML = `LinkedIn: <a href="${userinfo.linkedin}" target="_blank">${userinfo.linkedin}</a>`;
+
         document.getElementById("curso").innerText = `Curso: ${userinfo.curso}`;
 
         modal.style.display = "block";

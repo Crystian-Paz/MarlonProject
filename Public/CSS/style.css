@@ -27,7 +27,7 @@ h2.titulo span{
 }
 
 
-a{
+header a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
     text-decoration: none;
@@ -228,6 +228,7 @@ section.quem-somos .flex{
 
 .quem-somos .pessoas-box{
     color: white;
+    cursor: pointer;
     padding: 40px; /* Ajusta a distancia dos box */
     border-radius: 28px;
     border: 2px solid #ffffff18;
